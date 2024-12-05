@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors/Traversing</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Manage Permission</h3>
+      <select>
+        <option value="subsubfgh">subsubfgh</option>
+      </select>
+
+      <ul class="permission-list">
+        <!-- Property Section -->
+        <li>
+          <label
+            ><input type="checkbox" class="parent-checkbox" /> Property</label
+          >
+          <ul>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Edit
+                Property</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Remove
+                Property</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Add
+                Property</label
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- Testimonial Section -->
+        <li>
+          <label
+            ><input type="checkbox" class="parent-checkbox" />
+            Testimonial</label
+          >
+          <ul>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Add</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Remove</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> View</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Edit</label
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- Users Section -->
+        <li>
+          <label><input type="checkbox" class="parent-checkbox" /> Users</label>
+          <ul>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Edit
+                User</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> View User
+                List</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" />
+                Add_User</label
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- Membership Section -->
+        <li>
+          <label
+            ><input type="checkbox" class="parent-checkbox" /> Membership</label
+          >
+          <ul>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Edit
+                Membership</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Remove
+                Membership</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" class="child-checkbox" /> Add
+                Membership</label
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <button type="submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
