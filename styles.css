@@ -1,9 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
 .container {
   width: 250px;
   border: 1px solid #ccc;
   padding: 10px;
   margin: 20px auto;
-  font-family: Arial, sans-serif;
 }
 
 .container h3 {
@@ -54,4 +60,92 @@
 
 .container button:hover {
   background-color: #0056b3;
+}
+
+/* Selectors/Traversing assignment two */
+
+.form-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 60px auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav h3 {
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.label-two {
+  display: inline-block;
+  width: 120px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="file"] {
+  flex: 1;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select.select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+button.remove-btn {
+  background-color: #e5e7eb;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+button.remove-btn:hover {
+  background-color: #c0392b;
+  color: #fff;
+}
+
+.add-another {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.add-another:hover {
+  text-decoration: underline;
 }
