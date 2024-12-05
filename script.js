@@ -29,7 +29,7 @@ jQuery(function () {
         <div class="right-side">
           <select class="select">
             <option value="primary">Primary Image</option>
-            <option value="secondary">Secondary Image</option>
+            <option value="secondary" selected>Secondary Image</option>
           </select>
           <button class="remove-btn">Remove</button>
         </div>
